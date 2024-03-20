@@ -2,7 +2,7 @@ exclude: '^docs/|/migrations/|devcontainer.json'
 default_stages: [commit]
 
 default_language_version:
-  python: python3.12
+  python: python3.11
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -36,8 +36,6 @@ repos:
         args: [--fix, --exit-non-zero-on-fix]
       # Formatter
       - id: ruff-format
-
-
 # sets up .pre-commit-ci.yaml to ensure pre-commit dependencies stay up to date
 # ci:
 #   autoupdate_schedule: weekly
