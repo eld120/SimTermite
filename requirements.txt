@@ -11,4 +11,9 @@ pytest-sugar==1.0.0  # https://github.com/Frozenball/pytest-sugar
 ruff==0.3.3  # https://github.com/astral-sh/ruff
 coverage==7.4.4  # https://github.com/nedbat/coveragepy
 pre-commit==3.6.2  # https://github.com/pre-commit/pre-commit
+
+
+# Game Development
+# ------------------------------------------------------------------------------
 pygame-ce==2.4.1 # https://pyga.me/docs/
+PyTMX==3.32 # https://pytmx.readthedocs.io/en/latest/

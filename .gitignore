@@ -1,4 +1,7 @@
 termite_venv/
+*.tiled-project
+*.tiled-session
+
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
